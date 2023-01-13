@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000148657649296176147070000017336169449940194434_);}
+	.st2{fill:url(#SVGID_00000144308474933293108900000003780308125152185782_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="197.424" y1="331.8176" x2="497.1121" y2="32.1295" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+		<stop  offset="0" style="stop-color:#B16B89;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#B16B89"/>
+	</linearGradient>
+	<path class="st0" d="M-72.7,865L64.3,727.9c89.8-89.8,235.4-89.8,325.2,0l436.8,436.8l-299.7,299.7L-72.7,865z"/>
+	
+		<linearGradient id="SVGID_00000155138328684041329380000013368246531348297616_" gradientUnits="userSpaceOnUse" x1="242.0456" y1="651.2426" x2="841.4218" y2="51.8664" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+		<stop  offset="0" style="stop-color:#398A92;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#398A92"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000155138328684041329380000013368246531348297616_);" d="M28.3,1240.8l436.8-436.8
+		c89.8-89.8,235.4-89.8,325.2,0l323.9,323.9l-599.4,599.4L28.3,1240.8z"/>
+	
+		<linearGradient id="SVGID_00000103956892677255734360000001210112769573145226_" gradientUnits="userSpaceOnUse" x1="887.8702" y1="404.9095" x2="1187.5583" y2="105.2214" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+		<stop  offset="0" style="stop-color:#EFD935;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#EFD935"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000103956892677255734360000001210112769573145226_);" d="M767.5,1087.9l137.1-137.1
+		c89.8-89.8,235.4-89.8,325.2,0l137.1,137.1l-299.7,299.7L767.5,1087.9z"/>
+</g>
+</svg>

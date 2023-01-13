@@ -1,0 +1,1 @@
+.card:where(.astro-X2NDV7XI){background-color:var(--cardFillColor)}.card:where(.astro-X2NDV7XI):hover{background-color:var(--cardHoverFillColor);background-color:var(--cardFillColor);border-color:var(--cardBorderColor);box-shadow:0 0 30px 10px var(--cardShadowColor)}

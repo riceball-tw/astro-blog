@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000109711529053953755510000015973216313021204395_);}
+	.st2{fill:url(#SVGID_00000091704022720812553320000008512759943343042691_);}
+</style>
+<g>
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="270.1664" y1="332.2497" x2="569.8544" y2="32.5616" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+			<stop  offset="0" style="stop-color:#FBBDB8;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#FBBDB8"/>
+		</linearGradient>
+		<path class="st0" d="M0,865.4l137.1-137.1c89.8-89.8,235.4-89.8,325.2,0l436.8,436.8l-299.7,299.7L0,865.4z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="SVGID_00000055706094825850328130000013859800922242336131_" gradientUnits="userSpaceOnUse" x1="314.7879" y1="651.6747" x2="914.1641" y2="52.2985" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+			<stop  offset="0" style="stop-color:#A7F4FF;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#A7F4FF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000055706094825850328130000013859800922242336131_);" d="M101.1,1241.3l436.8-436.8
+			c89.8-89.8,235.4-89.8,325.2,0l323.9,323.9l-599.4,599.4L101.1,1241.3z"/>
+	</g>
+	
+		<linearGradient id="SVGID_00000158018391212895978450000007243670929972168119_" gradientUnits="userSpaceOnUse" x1="960.6126" y1="405.3416" x2="1260.3008" y2="105.6535" gradientTransform="matrix(1 0 0 1 29.5218 832.857)">
+		<stop  offset="0" style="stop-color:#FFE089;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#FFE089"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000158018391212895978450000007243670929972168119_);" d="M840.3,1088.4l137.1-137.1
+		c89.8-89.8,235.4-89.8,325.2,0l137.1,137.1L1140,1388L840.3,1088.4z"/>
+</g>
+</svg>
