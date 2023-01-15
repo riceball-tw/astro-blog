@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" class="astro-VK7XQI77" style="--themeColorTransparent: #ea75d730;">
+  <head>
+    
+      <!-- Global --><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Astro v1.9.2">
+
+<!-- SEO Meta -->
+<title>Why You Should Use Data Attributes - 網頁東東</title>
+<meta name="title" content="Why You Should Use Data Attributes - 網頁東東">
+<meta name="description" content="data 屬性是普遍存儲資料於 HTML 中最常用的方式之一，讓我們學會如何使用它。">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:url" content="https://riceball-tw.github.io">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Why You Should Use Data Attributes - 網頁東東">
+<meta property="og:description" content="data 屬性是普遍存儲資料於 HTML 中最常用的方式之一，讓我們學會如何使用它。">
+<meta property="og:image" content="https://riceball-tw.github.io/images/placeholder/webdongOg.jpg">
+<meta property="og:image:alt" content="預設縮圖">
+
+<meta property="og:image:width" content="1200">
+
+<meta property="og:image:height" content="627">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="https://riceball-tw.github.io">
+<meta property="twitter:title" content="Why You Should Use Data Attributes - 網頁東東">
+<meta property="twitter:description" content="data 屬性是普遍存儲資料於 HTML 中最常用的方式之一，讓我們學會如何使用它。">
+<meta property="og:image" content="https://riceball-tw.github.io/images/placeholder/webdongOg.jpg">
+
+    
+  <link rel="stylesheet" href="/astro-blog/assets/404.8a10558d.css" /></head>
+  <body class="bg-primary-50 from-white text-primary-800 dark:bg-primary-800 dark:from-primary-800 dark:to-primary-900
+   dark:text-primary-50 bg-no-repeat bg-cover bg-center body selection:bg-accent selection:text-primary-50   astro-VK7XQI77">
+    <nav style="height: var(--mainNav-height)" class="fixed bottom-0 left-0 flex items-center justify-between w-full sm:fixed sm:top-0 sm:bottom-auto z-50 filter md:backdrop-blur-none backdrop-blur-xl">
+  <div class="h-full grid grid-cols-3 md:grid-cols-2 w-full">
+    <!-- Brand -->
+    <div class="flex items-center md:mx-8 mx-4">
+      <a href="https://riceball-tw.github.io/astro-blog">
+        <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition flex gap-2 items-center dark:hover:bg-transparent hover:bg-transparent hover:opacity-80 ">
+  <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+            <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="30" y1="15.525" x2="30" y2="48.919">
+              <stop offset="0" stop-color="#ea75d720" stop-opacity="0"></stop>
+              <stop offset="1" stop-color="#ea75d7"></stop>
+            </linearGradient>
+            <path d="M30 48.9h0c-6.7 0-12.9-4-15.5-10.2L6.3 19.1c-.7-1.7.6-3.6 2.4-3.6h42.6c1.8 0 3.1 1.9 2.4 3.6l-8.2 19.5A16.93 16.93 0 0 1 30 48.9z" fill="url(#A)"></path>
+          </svg><svg width="80" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" fill="currentColor" class="opacity-70 hidden md:block">
+            <path d="M18.7 29.6l-2.8-7-3.3 7.1-4.8-12.4h2.7l2.3 6.9 1.8-4.5-.9-2.3H16l2.7 6.6 2-6.6h2.5l-4.5 12.2zm18.5-12.4v2.3h-5.8V22h5.1v2.3h-5.1v2.6h6V29h-8.3V17.2h8.1zm15 6.7c.3.5.5 1 .5 1.6 0 1.2-.4 2.1-1.2 2.7s-1.8.8-3 .8h-4V17.2H48c1.3 0 2.2.3 3 .8.7.5 1.1 1.2 1.1 2.2 0 .6-.1 1.1-.4 1.6-.2.4-.6.8-1 1.1a2.84 2.84 0 0 1 1.5 1zM47 22h1.4c.4 0 .8-.1 1-.4s.4-.6.4-1-.1-.7-.4-.9-.6-.3-1.1-.3H47V22zm2.8 4.5c.3-.2.5-.6.5-1 0-.8-.7-1.3-2-1.3H47v2.6h1.5c.5.1 1 0 1.3-.3zM9.5 34.6H13c1.5 0 2.8.3 3.7.9 1 .6 1.7 1.3 2.1 2.3.4.9.7 1.9.7 3s-.3 2.1-.8 3-1.3 1.5-2.2 2-1.9.7-3 .7h-4V34.6zm3.7 9.6c1.2 0 2.2-.3 2.9-.9s1.1-1.5 1.1-2.7c0-.9-.2-1.7-.6-2.3s-.8-.9-1.4-1.2c-.5-.2-1-.3-1.5-.3h-1.9v7.4h1.4zm13.6-6.7a5.81 5.81 0 0 1 2.2-2.2c.9-.6 1.9-.8 3-.8s2.1.3 3 .8a5.81 5.81 0 0 1 2.2 2.2c.5.9.8 1.9.8 3s-.3 2.1-.8 3c-.6.9-1.3 1.7-2.2 2.2s-1.9.8-3 .8-2.1-.3-3-.8a5.81 5.81 0 0 1-2.2-2.2c-.5-.9-.8-1.9-.8-3 0-1 .3-2 .8-3zm2.1 4.9c.3.6.8 1 1.3 1.4s1.2.5 1.9.5 1.3-.2 1.8-.5 1-.8 1.3-1.4.5-1.2.5-1.9-.2-1.4-.5-1.9c-.3-.6-.8-1-1.3-1.4-.6-.3-1.2-.5-1.8-.5-.7 0-1.3.2-1.8.5-.6.3-1 .8-1.3 1.4s-.5 1.2-.5 1.9c-.1.7.1 1.4.4 1.9zm26.4-7.8V47h-.1L47 39.4v7h-2.4V34.1h.1l8.3 7.6v-7.1h2.3zm16 11.3c-.5.2-1 .4-1.5.5l-1.5.2c-1.3 0-2.4-.2-3.3-.7a5.37 5.37 0 0 1-2.2-2c-.5-.9-.8-1.9-.8-3 0-1.4.3-2.6.8-3.5.5-1 1.3-1.7 2.2-2.2s1.9-.7 3.1-.7c.7 0 1.4.1 2 .2s1.2.4 1.7.6l-.8 2.2c-.3-.2-.7-.3-1.3-.5-.5-.1-1-.2-1.4-.2-1.3 0-2.3.3-3 1-.7.6-1 1.6-1 2.9 0 .7.2 1.4.5 1.9s.8 1 1.4 1.2 1.3.4 2 .4 1.3-.1 1.6-.3v-1.4h-2v-2.3h4.4v5c-.2.3-.5.5-.9.7z"></path>
+          </svg>
+</div>
+      </a>
+    </div>
+
+    <!-- Navbar List -->
+    <ul class="md:col-span-1 col-span-2 font-medium flex whitespace-nowrap">
+      <li class="flex-1 hover:opacity-60 transition-opacity transition">
+            <a href="/astro-blog/about" class=" inline-block w-full h-full flex justify-center items-center ">
+              關於
+            </a>
+          </li><li class="flex-1 hover:opacity-60 transition-opacity transition">
+            <a href="/astro-blog/post" class=" inline-block w-full h-full flex justify-center items-center ">
+              文章
+            </a>
+          </li>
+
+      <li class="flex justify-center items-center">
+        <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <button data-theme-toggle aria-label="網頁外觀樣式切換 Theme Toggle" type="button" class="aspect-square w-16 flex justify-center items-center text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm">
+            <!-- Dark Icon -->
+            <svg width="16" height="16" class="hidden dark:block" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1005 1005" xmlns="https://vecta.io/nano"><path d="M502.5 0C225 0 0 225 0 502.5S225 1005 502.5 1005 1005 780 1005 502.5c0-25.7-2.2-51.4-5.6-75.9-54.7 76.5-144 126.2-245.7 126.2-166.4 0-301.5-135.1-301.5-301.5 0-101.1 49.7-191 126.2-245.7C553.9 2.2 528.2 0 502.5 0h0z"></path></svg>
+
+            <!-- Light Icon -->
+            <svg width="16" height="16" fill="currentColor" class="dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1005 1005" xmlns="https://vecta.io/nano"><path d="M502.5 274.1c-126.1 0-228.4 102.3-228.4 228.4s102.3 228.4 228.4 228.4 228.4-102.3 228.4-228.4-102.3-228.4-228.4-228.4h0zM45.7 548.2H137c25.1 0 45.7-20.6 45.7-45.7s-20.6-45.7-45.7-45.7H45.7C20.6 456.8 0 477.4 0 502.5s20.6 45.7 45.7 45.7zm822.3 0h91.4c25.1 0 45.7-20.6 45.7-45.7s-20.6-45.7-45.7-45.7H868c-25.1 0-45.7 20.6-45.7 45.7s20.5 45.7 45.7 45.7zM456.8 45.7V137c0 25.1 20.6 45.7 45.7 45.7s45.7-20.6 45.7-45.7V45.7c0-25.1-20.6-45.7-45.7-45.7s-45.7 20.6-45.7 45.7zm0 822.3v91.4c0 25.1 20.6 45.7 45.7 45.7s45.7-20.6 45.7-45.7V868c0-25.1-20.6-45.7-45.7-45.7s-45.7 20.5-45.7 45.7zM228 163.5c-17.8-17.8-47.1-17.8-64.4 0-17.8 17.8-17.8 47.1 0 64.4l48.4 48.4c17.8 17.8 47.1 17.8 64.4 0 17.4-17.8 17.8-47.1 0-64.4L228 163.5zm565 565.1c-17.8-17.8-47.1-17.8-64.4 0-17.8 17.8-17.8 47.1 0 64.4l48.4 48.4c17.8 17.8 47.1 17.8 64.4 0 17.8-17.8 17.8-47.1 0-64.4L793 728.6zM841.5 228c17.8-17.8 17.8-47.1 0-64.4-17.8-17.8-47.1-17.8-64.4 0L728.6 212c-17.8 17.8-17.8 47.1 0 64.4 17.8 17.4 47.1 17.8 64.4 0l48.5-48.4zM276.4 793c17.8-17.8 17.8-47.1 0-64.4-17.8-17.8-47.1-17.8-64.4 0L163.5 777c-17.8 17.8-17.8 47.1 0 64.4s47.1 17.8 64.4 0l48.5-48.4z"></path></svg>
+          </button>
+</div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  // Theme Toggle
+  const themeToggle = document.querySelector('[data-theme-toggle]');
+  function themeUpdate() {
+    if (
+      localStorage.theme === 'dark' ||
+      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }
+
+  themeToggle.addEventListener('click', () => {
+    if (localStorage.theme === 'light') {
+      localStorage.theme = 'dark';
+    } else {
+      localStorage.theme = 'light';
+    }
+    themeUpdate();
+  });
+  themeUpdate();
+</script>
+    <div class="min-h-screen astro-VK7XQI77">
+      <main>
+    <article class="mt-40 prose-lg">
+      <header class="mb-16 not-prose md:mx-auto mx-8">
+        <!-- FeatureImageImage -->
+        
+        <div class="relative mx-auto max-w-prose">
+          <!-- Heading -->
+          <h1>
+            <div class="mb-2">Why You Should Use Data Attributes</div>
+            <div class="text-4xl mb-4 font-bold">為什麼你應該要使用資料屬性 data-*</div>
+          </h1>
+          <!-- Categories -->
+          <a class="relative mr-4 opacity-40 hover:opacity-100 whitespace-nowrap" href="/astro-blog/post/categories/tutorial">
+  @ tutorial
+</a>
+          <!-- Tags -->
+          <ul class="flex gap-4 whitespace-nowrap">
+  <li>
+        <a class="opacity-40 hover:opacity-100" href="/astro-blog/post/tags/JS">
+          # JS
+        </a>
+      </li>
+</ul>
+          <div class="mx-auto absolute top-0 left-0 rounded-lg transform-gpu -translate-y-full -mt-8 overflow-hidden" style="background-color: #ea75d7">
+                <img src="https://storage.googleapis.com/strapi-my-blog-prod-storage/Label_121295df88/Label_121295df88.svg" width="64" height="64" alt="筆記">
+              </div>
+        </div>
+      </header>
+      <div class="mx-8 md:mx-auto prose md:prose-lg max-w-none dark:prose-invert dark:prose-dark singlePost wrapper">
+        <h2 id="html-元件屬性介紹">HTML 元件屬性介紹</h2>
+<p>HTML 元件可以擁有自己的屬性，用於表達各種類的資訊，像是從外觀樣式到無障礙資訊到各式各樣的預設屬性，如下：</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">&#x3C;</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">class</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"names"</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">role</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"region"</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">aria-label</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"Names"</span><span style="color: #C9D1D9">>&#x3C;/</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9">></span></span></code></pre>
+<p>但當要給一些元件新增客製化的資料時，能不能將事件的狀態與資料記錄在 HTML 中呢？具體來說：視窗的顯示狀態、按鈕的功能種類？
+答案是可以的，但作法並非直觀的直接將屬性寫在標籤上，如下：</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9"> </span><span style="color: #8B949E">&#x3C;!-- `highlight` 並不是和規的屬性 --></span></span>
+<span class="line"><span style="color: #C9D1D9">&#x3C;</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">highlight</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"true"</span><span style="color: #C9D1D9">>&#x3C;/</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9">></span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #8B949E">&#x3C;!-- `large` 並不是一個和規的屬性 --></span></span>
+<span class="line"><span style="color: #C9D1D9">&#x3C;</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">width</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"large"</span><span style="color: #C9D1D9">>&#x3C;/</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9">></span></span></code></pre>
+<p>以上的做法雖然能達成在 HTML 中新增自訂資料的目的，但會出現幾個問題，強烈不建議：</p>
+<ul>
+<li>是不合規的 HTML 語法，會報錯 (屬性或值不存在、無法被允許)</li>
+<li>未來可能會造成衝突 (HTML 是持續演進的語言，現今這個自訂的屬性預設對 HTML 沒有意義，不代表未來也不會有)</li>
+</ul>
+<p>好消息是，只要新增 <a href="https://developer.mozilla.org/zh-TW/docs/Web/HTML/Global_attributes/data-*">data-*</a> 前綴，HTML 就知道這是一種「自訂的屬性」，解決了以上兩個問題。</p>
+<!-- prettier-ignore -->
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #8B949E">&#x3C;!--想怎麼定義資料，就怎麼定義--></span></span>
+<span class="line"><span style="color: #C9D1D9">&#x3C;</span><span style="color: #7EE787">div</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">data-name-item</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">data-first-name</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"Joe"</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">data-last-name</span><span style="color: #C9D1D9">=</span><span style="color: #A5D6FF">"Doe"</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">data-active</span></span>
+<span class="line"><span style="color: #C9D1D9">>&#x3C;/</span><span style="color: #7EE787">div</span><span style="color: #C9D1D9">></span></span></code></pre>
+<p>相較於將資料的狀態記載在 id 或 class 上，除了受既定用途的影響與局限性外，建議選取元件、紀錄資料都使用 data 屬性會是更為妥當的做法。</p>
+<h2 id="讀取-data-屬性">讀取 Data 屬性</h2>
+<p>延續前面在 <code>&#x3C;div></code> 中自訂的三筆資料，可以先藉由 <code>querySelector</code> 選取具有該自訂屬性的節點：</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #FF7B72">const</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">foobar</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> document.</span><span style="color: #D2A8FF">querySelector</span><span style="color: #C9D1D9">(</span><span style="color: #A5D6FF">'[data-name-item]'</span><span style="color: #C9D1D9">);</span></span></code></pre>
+<p>再使用 dataset 這個屬性來獲取其所有自訂的 data 屬性(回傳物件)：</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #8B949E">// 輸入</span></span>
+<span class="line"><span style="color: #C9D1D9">console.</span><span style="color: #D2A8FF">log</span><span style="color: #C9D1D9">(foobar.dataset)</span></span>
+<span class="line"><span style="color: #8B949E">// 輸出</span></span>
+<span class="line"><span style="color: #C9D1D9">{</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #A5D6FF">"nameItem"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">""</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #A5D6FF">"firstName"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Joe"</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #A5D6FF">"lastName"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Doe"</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #A5D6FF">"active"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">""</span></span>
+<span class="line"><span style="color: #C9D1D9">}</span></span></code></pre>
+<p>我們可以使用點記法(Dot Notation)或括弧記法(Bracket Notation) 來讀取這個物件。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">console.</span><span style="color: #D2A8FF">log</span><span style="color: #C9D1D9">(foobar.dataset.firstName); </span><span style="color: #8B949E">// Joe</span></span>
+<span class="line"><span style="color: #C9D1D9">console.</span><span style="color: #D2A8FF">log</span><span style="color: #C9D1D9">(foobar.dataset[lastName]); </span><span style="color: #8B949E">// Doe</span></span></code></pre>
+<p>有趣的是，原先是烤肉串 (Kebab Case) 的資料值被轉換成了小駝峰式 (Lower Camel Case) 的顯示方式，再來沒有值的 data 屬性會被自動指派一個空的字串為內容，完全不存在的屬性將會回傳 undefined，需特別留意。</p>
+<h2 id="更新-data-屬性">更新 Data 屬性</h2>
+<p>更動 data 屬性就和修改一般物件一樣容易，一樣可以用以上兩種方法去更改。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">foobar.dataset[</span><span style="color: #A5D6FF">'firstName'</span><span style="color: #C9D1D9">] </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">'new'</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"><span style="color: #C9D1D9">foobar.dataset.firstName </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">'new'</span><span style="color: #C9D1D9">;</span></span></code></pre>
+<h2 id="刪除-data-屬性">刪除 Data 屬性</h2>
+<p>刪除 data 屬性就和刪除一般物件一樣容易，可以使用 <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/delete">delete</a> 方法。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #FF7B72">delete</span><span style="color: #C9D1D9"> foobar.dataset;</span></span></code></pre>
+<h2 id="總結">總結</h2>
+<p>data 屬性是一個正式存儲資料於 HTML 的作法，讓 Javascript 與 CSS 都能讀取得到元件的資料，不用再打出 Ajax 請求，直接把資料置於客戶端的元件中。</p>
+<ul>
+<li>data 屬性可以自由的鑲嵌自訂屬性到 HTML 元件中</li>
+<li>data 屬性其屬性名稱必須是小寫，並且至少一個字以上</li>
+<li>data 屬性可以被添加於任何 HTML 元素上</li>
+</ul>
+<blockquote>
+<p>在使用 data 屬性之前也必須注意有沒有現成的屬性 (ARIA 屬性)或元件可以更貼切原生的描述其資料用途，自訂屬性應被視為最終手段。</p>
+</blockquote>
+<h2 id="參考">參考</h2>
+<ul>
+<li><a href="https://heyoka.medium.com/a-better-alternative-to-data-target-attributes-a499dcd55d6e">A better alternative to data-target attributes - medium</a></li>
+<li><a href="https://css-tricks.com/a-complete-guide-to-data-attributes/">A Complete Guide to Data Attributes - css-tricks</a></li>
+<li><a href="https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/">Data Attributes In JavaScript - Web Dev Simplified Blog</a></li>
+</ul>
+      </div>
+    </article>
+  </main>
+    </div>
+    <footer class="flex items-center mt-16 justify-between sm:mb-0 mb-[var(--mainNav-height)]">
+  <!-- Copyrihgt -->
+  <div class="flex p-4 md:text-base opacity-60 md:opacity-100">
+    <a class="hover:underline" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW">
+      CC BY-NC 4.0
+    </a>
+  </div>
+  <div class="flex items-center mr-4 md:mr-0">
+    <ul class="flex items-center">
+      <li class="flex-1">
+            <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <a class="p-4 inline-block" href="https://codepen.io/riecball">
+                <img loading="lazy" width="16" height="16" class=" mx-auto filter dark:invert" src="https://www.webdong.dev/images/social/codepen.svg" alt="CodePen">
+              </a>
+</div>
+          </li><li class="flex-1">
+            <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <a class="p-4 inline-block" href="https://www.youtube.com/channel/">
+                <img loading="lazy" width="16" height="16" class=" mx-auto filter dark:invert" src="https://www.webdong.dev/images/social/youtube.svg" alt="YouTube">
+              </a>
+</div>
+          </li><li class="flex-1">
+            <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <a class="p-4 inline-block" href="https://www.instagram.com/">
+                <img loading="lazy" width="16" height="16" class=" mx-auto filter dark:invert" src="https://www.webdong.dev/images/social/instagram.svg" alt="Instagram">
+              </a>
+</div>
+          </li><li class="flex-1">
+            <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <a class="p-4 inline-block" href="https://github.com/riceball-tw">
+                <img loading="lazy" width="16" height="16" class=" mx-auto filter dark:invert" src="https://www.webdong.dev/images/social/github.svg" alt="GitHub">
+              </a>
+</div>
+          </li>
+
+      <li class="flex-1">
+        <div class="hover:bg-primary-200 hover:text-primary-900 dark:hover:bg-primary-700 dark:hover:text-primary-200 p-1 rounded-lg active:scale-90 transition undefined">
+  <button class="p-4" aria-label="網頁分享 Share This Website" data-share-btn type="button">
+            <svg width="16" height="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1005 1005" xmlns="https://vecta.io/nano"><path d="M785.2 1005c-43.6 0-80.7-15.3-111.2-45.8s-45.8-67.6-45.8-111.2c0-7 .4-13.3 1.3-19s2.2-12 3.9-19L321.9 620.3c-13.1 13.9-28.6 24-46.5 30.1s-36.4 9.2-55.6 9.2c-43.6 0-80.7-15.3-111.2-45.8s-45.8-67.6-45.8-111.2 15.3-80.7 45.8-111.2 67.6-45.8 111.2-45.8c19.2 0 37.7 3.3 55.6 9.8s33.4 16.4 46.5 29.5L633.3 195c-1.7-7-3-13.3-3.9-19s-1.3-12-1.3-19c0-43.6 15.3-80.7 45.8-111.2S741.5 0 785.2 0s80.7 15.3 111.2 45.8 45.8 67.6 45.8 111.2-15.3 80.7-45.8 111.2S828.8 314 785.2 314c-19.2 0-37.7-3.1-55.6-9.2s-33.4-16.1-46.5-30.1L371.7 464.6c1.7 7 3 13.3 3.9 19s1.3 12 1.3 19-.4 13.3-1.3 19-2.2 12-3.9 19l311.4 189.8c13.1-14.8 28.6-25.1 46.5-30.8s36.4-8.5 55.6-8.5c43.6 0 80.7 15.3 111.2 45.8s45.8 67.6 45.8 111.2-15.3 80.7-45.8 111.2c-30.5 30.4-67.6 45.7-111.2 45.7zm0-785.2c17.5 0 32.3-6.1 44.5-18.3s18.3-27 18.3-44.5-6.1-32.3-18.3-44.5-27-18.3-44.5-18.3-32.3 6.1-44.5 18.3-18.3 27-18.3 44.5 6.1 32.3 18.3 44.5 27 18.3 44.5 18.3zM219.8 565.3c17.5 0 32.3-6.1 44.5-18.3s18.3-27 18.3-44.5-6.1-32.3-18.3-44.5-27-18.3-44.5-18.3-32.3 6.1-44.5 18.3-18.3 27-18.3 44.5 6.1 32.3 18.3 44.5c12.3 12.2 27.1 18.3 44.5 18.3zm565.4 345.5c17.5 0 32.3-6.1 44.5-18.3s18.3-27 18.3-44.5-6.1-32.3-18.3-44.5-27-18.3-44.5-18.3-32.3 6.1-44.5 18.3-18.3 27-18.3 44.5 6.1 32.3 18.3 44.5 27 18.3 44.5 18.3z"></path></svg>
+          </button>
+</div>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  // Share
+  const dataShareBtn = document.querySelector('[data-share-btn]');
+  dataShareBtn.addEventListener('click', () => {
+    const { title } = document;
+    const url = document.querySelector('link[rel=canonical]')
+      ? document.querySelector('link[rel=canonical]').href
+      : document.location.href;
+    if (navigator.share) {
+      navigator
+        .share({
+          title,
+          url,
+        })
+        .then(() => {
+          // console.log('Thanks for sharing!');
+        })
+        .catch(() => {
+          // console.error(err);
+        });
+    } else {
+      alert('沒有支援分享功能，有空補上這個功能 -_-');
+    }
+  });
+</script>
+  
+</body></html>
+
+<style>
+  .wrapper {
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(65ch, 100%)
+      1fr;
+  }
+  .wrapper > * {
+    grid-column: 2;
+  }
+  /* .wrapper p:has(> img) { */
+
+  .wrapper p:has(img) {
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+
+  .wrapper > img {
+    margin: 0 auto;
+    grid-column: 1 / -1;
+  }
+
+  .raw-html-embed {
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .raw-html-embed > video {
+    margin: 0 auto;
+  }
+
+  iframe {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .table {
+    overflow: 'auto';
+    display: block;
+  }
+
+  /* table {
+  width: auto;
+
+}
+
+.table {
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  overflow-x: scroll;
+  grid-column: 1 / -1;
+} */
+
+  p img {
+    margin: 0 auto;
+  }
+</style>
